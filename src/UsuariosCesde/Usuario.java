@@ -7,13 +7,13 @@ public class Usuario {
 
     //primero creamos los atributos encapsulados con private
 
-    private int id;
-    private String nombre;
-    private String apellido;
-    private String correo;
-    private String password;
-    private String direccion;
-    private String telefono;
+    protected int id;
+    protected String nombre;
+    protected String apellido;
+    protected String correo;
+    protected String password;
+    protected String direccion;
+    protected String telefono;
 
     //método constructor vacio
 
@@ -85,6 +85,9 @@ public class Usuario {
     //métodos
 
     public void registrarUsurio(){
+
+        System.out.println("Soy el de Usuario");
+
         System.out.println("Ingrese su id");
         this.id= sc.nextInt(); //This es un operador que hace referencia a un atributo de la clase
         sc.skip("\n");
