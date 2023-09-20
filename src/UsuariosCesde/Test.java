@@ -17,7 +17,7 @@ public class Test {
         nicolas.iniciarSesion();
         */
 
-        Estudiante estudiante = new Estudiante();
+       /* Estudiante estudiante = new Estudiante();
 
         estudiante.setNombre("Pepito");
 
@@ -40,6 +40,6 @@ public class Test {
         estudiante.registrarUsurio();
         estudiante.toString();
         estudiante.iniciarSesion();
-        estSiftware.registrarUsurio();
+        estSiftware.registrarUsurio();*/
     }
 }
